@@ -24,7 +24,7 @@ const styles = StyleSheet.create<Styles>({
     marginVertical: 8,
     padding: 8,
     borderRadius: 8,
-    maxHeight: 200,
+    maxHeight: 500,
   },
   text: {
     color: 'black',

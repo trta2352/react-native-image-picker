@@ -12,7 +12,7 @@ abstract class Metadata {
   protected String datetime;
   protected int height;
   protected int width;
-
+  
   abstract public String getDateTime();
   abstract public int getWidth();
   abstract public int getHeight();

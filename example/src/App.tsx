@@ -18,6 +18,10 @@ export default function App() {
     }
   }, []);
 
+  React.useEffect(() => {
+    console.log(JSON.stringify(response));
+  }, [response]);
+
   return (
     <SafeAreaView style={styles.container}>
       <DemoTitle>🌄 React Native Image Picker</DemoTitle>
